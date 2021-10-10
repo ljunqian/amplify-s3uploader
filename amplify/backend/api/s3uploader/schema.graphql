@@ -1,0 +1,8 @@
+type file @model {
+  id: ID!
+  title: String!
+  description: String!
+  filepath: String!
+  like: Int!
+  owner: String!
+}

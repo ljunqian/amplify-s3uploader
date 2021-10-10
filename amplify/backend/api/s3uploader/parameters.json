@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "s3uploader",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifys3uploader1795903e",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
